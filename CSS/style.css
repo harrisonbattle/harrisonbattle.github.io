@@ -6,17 +6,36 @@ html {
 
 nav {
     text-align: center;
-}   
+}
 
 .pageContainer {
     display: inline-block;
+    background: linear-gradient(to left, rgba(255, 134, 219, 0.5) 50%, rgba(255, 56, 205, 0.8) 50%) right;
+    background-size: 200% 100%;
+    transition: 0.3s ease-out;
     color: rgba(0, 0, 0, 0.8);
     text-decoration-line: none;
-    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     border-radius: 2px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
+}
+.pageContainer:hover {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    background-position: left;
+}
+
+.pageContainer:active {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 8, 123, 0.8);
+  padding: 18px;
+}
+
+.pageContainer:visited {
+  background: purple;
 }
 
 body {
