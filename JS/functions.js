@@ -11,7 +11,7 @@ function showSection(sectionId) {
 
     const nav = document.querySelector('nav');
     if (nav) {
-        if (sectionId === 'home') {
+        if (sectionId === 'frontpage') {
             nav.classList.remove('scrolled');
         } else {
             nav.classList.add('scrolled');
@@ -20,5 +20,5 @@ function showSection(sectionId) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    showSection('home');
+    showSection('frontpage');
 });
