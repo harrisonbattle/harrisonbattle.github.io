@@ -144,14 +144,16 @@ body {
 
     nav {
         position: static;
+        transform: none;
+        top: auto;
+        left: auto;
         width: 100%;
         padding: 10px 0;
-        background-color: rgb(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.9);
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .navContainer {
-        display: flex;
         flex-direction: column;
         gap: 10px;
     }
