@@ -1,18 +1,27 @@
 html {
     scroll-behavior: smooth;
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
-    color: rgb(199, 199, 199);
+    font-size: .75rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
 }
 
 p {
-    color: rgb(199, 199, 199);
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 ul {
-    color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
     display: inline-block;
     text-align: left;
     list-style-position: inside;
@@ -22,6 +31,42 @@ ul {
 
 li {
     text-align: left;
+}
+
+#content {
+    display: flex;
+    flex-wrap: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 10px;
+}
+
+.box, .box_2 {
+    background-color: rgb(212, 212, 212, 50%);
+    box-shadow: 0px 4px 6px;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    margin: 10px auto;
+    height: auto;
+}
+
+.box:hover, .box_2:hover, .homepage-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px;
+}
+
+.homepage-image {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
 }
 
 nav {
@@ -46,7 +91,7 @@ nav.scrolled {
 
 .pageContainer {
     display: inline-block;
-    background: linear-gradient(to left, rgba(48, 48, 48, 0.5) 50%, rgba(141, 141, 141, 0.8) 50%) right;
+    background: linear-gradient(to left, rgba(201, 201, 201, 0.5) 50%, rgba(185, 185, 185, 0.8) 50%) right;
     background-size: 200% 100%;
     transition: 0.3s ease-out, font-size 0.5s ease;
     color: rgba(0, 0, 0, 0.8);
@@ -67,7 +112,7 @@ nav.scrolled {
 .pageContainer:active {
   display: inline-block;
   color: rgba(0, 0, 0, 0.9);
-  background: rgba(110, 110, 110, 0.8);
+  background: rgba(184, 184, 184, 0.8);
   padding: 18px;
 }
 
