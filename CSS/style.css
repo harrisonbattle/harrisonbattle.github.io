@@ -143,14 +143,15 @@ body {
     }
 
     nav {
-        position: static;
+        position: fixed;
         transform: none;
-        top: auto;
-        left: auto;
-        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
         padding: 10px 0;
-        background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: transparent;
+        box-shadow: none;
     }
 
     .navContainer {
@@ -162,6 +163,8 @@ body {
         font-size: 1.2rem;
         padding: 10px;
         margin: 5px 0;
+        background: none;
+        box-shadow: none;
     }
 
     #content {
