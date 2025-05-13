@@ -228,10 +228,9 @@ body {
     }
 
     .projects-image {
-        width: 300px;
-        max-width: 300px;
-        height: auto;
-        margin: 10px 0;
+        width: 100%;
+        max-width: 80%;
+        margin: 10px auto;
     }
 
     h1 {
