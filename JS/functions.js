@@ -8,7 +8,7 @@ function showSection(sectionId) {
     if (sectionToShow) {
         sectionToShow.style.display = 'block';
     }
-
+    // Lands on the front page of the website and allows for navigating through other pages
     const nav = document.querySelector('nav');
     if (nav) {
         if (sectionId === 'frontpage') {
