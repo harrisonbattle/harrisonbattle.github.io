@@ -190,7 +190,7 @@ body {
         transform: translate(-50%, -50%);
         width: auto;
         padding: 10px 0;
-        background-color: rgb(202, 202, 202);
+        background-color: transparent;
         box-shadow: none;
     }
 
@@ -228,8 +228,8 @@ body {
     }
 
     .projects-image {
-        width: 100%;
-        max-width: 100%;
+        width: 300px;
+        max-width: 300px;
         height: auto;
         margin: 10px 0;
     }
